@@ -57,18 +57,21 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v0u-4T-Zdt">
                                                 <rect key="frame" x="0.0" y="0.0" width="233" height="36.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vEM-GF-Uw1">
                                                 <rect key="frame" x="0.0" y="75.5" width="233" height="37"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7wM-Rf-igD">
                                                 <rect key="frame" x="0.0" y="151.5" width="233" height="36.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
@@ -94,7 +97,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="findDay" destination="BYZ-38-t0r" eventType="touchUpInside" id="C9b-Yd-9px"/>
+                                    <action selector="findWeekDay" destination="BYZ-38-t0r" eventType="touchUpInside" id="jeM-wo-Ibt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -114,10 +117,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="dateText" destination="v0u-4T-Zdt" id="tdH-VX-sIV"/>
-                        <outlet property="monthText" destination="vEM-GF-Uw1" id="Wn3-zG-xfX"/>
-                        <outlet property="resultLabel" destination="rpF-9u-ssY" id="AFb-xy-ctK"/>
-                        <outlet property="yearText" destination="7wM-Rf-igD" id="Ha0-yF-Scs"/>
+                        <outlet property="dateTF" destination="v0u-4T-Zdt" id="L6c-lj-x0w"/>
+                        <outlet property="monthTF" destination="vEM-GF-Uw1" id="ESd-Z9-Len"/>
+                        <outlet property="resultLabel" destination="rpF-9u-ssY" id="C8I-dw-6gK"/>
+                        <outlet property="yearTF" destination="7wM-Rf-igD" id="Xxx-Oc-gSX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
